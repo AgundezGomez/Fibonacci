@@ -1,0 +1,25 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+#include<iostream>
+using namespace std;
+
+int main () {
+	int X,Y,Z,Numero,Contador;
+	X=0;
+	Y=1;
+	Z=0;
+	cout<< "DIGITE EL NUMERO ";
+	cin>> Numero;
+	cout<<"1 ,  ";
+	for (Contador=1; Contador<Numero; Contador++){
+		Z=X+Y;
+		cout<<Z<<" , ";
+		X=Y;
+		Y=Z;
+		
+	}
+	cin.get();
+	return 0;
+}
