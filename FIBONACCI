@@ -1,7 +1,5 @@
 #include <iostream>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 #include<iostream>
 using namespace std;
 
@@ -10,7 +8,7 @@ int main () {
 	X=0;
 	Y=1;
 	Z=0;
-	cout<< "DIGITE EL NUMERO ";
+	cout<< "Cuál número de Fibonacci? ";
 	cin>> Numero;
 	cout<<"1 ,  ";
 	for (Contador=1; Contador<Numero; Contador++){
